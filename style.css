@@ -82,6 +82,7 @@ nav.fill ul li a.nav-link:after {
 
 section#learn-on{
     padding: 5%;
+    background-color: rgb(33,181,115, .1);
 }
 
 .learn {
