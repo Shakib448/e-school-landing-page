@@ -1,5 +1,5 @@
 body{
-    font-family: 'Abel', sans-serif;
+    font-family: 'Sahitya', serif;
     font-size: large;
 }
 
@@ -108,6 +108,7 @@ a.learn-btn:hover {
 
 section#details{
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .center {
@@ -184,7 +185,13 @@ img.img-fluid.img {
 
 /* Footer  */
 footer {
+    background-color: #282531;
     padding: 5%;
+}
+footer ul li{
+    color: white;
+    list-style: none;
+    letter-spacing: 2px;
 }
 /* End  */
 
