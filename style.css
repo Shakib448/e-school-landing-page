@@ -82,6 +82,7 @@ nav.fill ul li a.nav-link:after {
 
 section#learn-on{
     padding: 5%;
+    background-color: rgb(33,181,115, .1);
 }
 
 .learn {
@@ -135,6 +136,7 @@ section#details{
 }
 .card.text-center.details-hover:hover {
     box-shadow: 10px 10px 30px gray;
+    background-color: rgb(33,181,115, .1);
 }
 
 /* End  */
