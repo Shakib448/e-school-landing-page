@@ -21,6 +21,16 @@ a.navbar-brand img {
     width: 194px;
 }
 
+.navbar-light .navbar-nav .active>.nav-link.sing:hover{
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .active>.nav-link.sing{
+    color: white;
+    background-color: #21B573;
+    border-radius: 10px;
+}
+
 .navbar-light .navbar-nav .active>.nav-link:hover{
     color: #ffffff;
 }
@@ -73,7 +83,6 @@ nav.fill ul li a.nav-link:after {
 section#learn-on{
     margin-bottom: 100px;
 }
-
 
 .learn {
     padding: 5% 2%;
