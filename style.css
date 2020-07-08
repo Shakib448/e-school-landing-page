@@ -117,56 +117,55 @@ section#details{
     width: 70px;
 }
 
-.card.text-center {
+.card.text-center.details-hover {
     border: none;
     transition: .5s;
 }
-.card.text-center:hover {
+.card.text-center.details-hover:hover {
     box-shadow: 10px 10px 30px gray;
 }
 
 /* End  */
 
-/* section Laptop start  */
+/* section Online courses start  */
 
-section#laptop{
+section#online{
     margin-bottom: 100px;
 }
 
-.laptop-header{
+.online-header{
     margin-bottom: 50px;
 }
 
-
-.laptop-header h5{
-    font-weight: bold;
-    cursor: pointer;
-    background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.card.card-shadow {
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 25px;
+    border: none;
+    padding: 5%;
 }
 
-a.laptop-btn {
+.img-thumbnail{
+    border: none;
+}
+
+a.online-btn {
     font-weight: bold;
-    background-color: black;
+    background-color: #21B573;
     color: white;
-    border: 2px solid black;
+    border: 2px solid #21B573;
     padding: 15px;
     border-radius: 10px;
     text-transform: uppercase;
     transition: 1s;
     cursor: pointer;
+    text-decoration: none;
 }
 
-a.laptop-btn:hover {
+a.online-btn:hover {
     background-color: white;
-    color: black;
+    color: #21B573;
 }
 
-a.laptop-btn:hover svg.bi.bi-arrow-right{
-    transform: rotate(-180deg);
-    color: black;
-}
 
 /* End  */
 
