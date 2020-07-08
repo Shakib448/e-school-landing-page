@@ -136,6 +136,7 @@ section#details{
 }
 .card.text-center.details-hover:hover {
     box-shadow: 10px 10px 30px gray;
+    background-color: rgb(33,181,115, .1);
 }
 
 /* End  */
