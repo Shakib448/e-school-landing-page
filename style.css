@@ -82,11 +82,14 @@ nav.fill ul li a.nav-link:after {
 
 section#learn-on{
     margin-bottom: 100px;
+
 }
 
 .learn {
     padding: 5% 2%;
+    z-index: 1;
 }
+
 
 .learn p {
     margin-bottom: 30px;
@@ -118,6 +121,7 @@ a.learn-btn:hover {
 section#details{
     margin-bottom: 100px;
     text-align: center;
+    padding: 5%;
 }
 
 .center {
